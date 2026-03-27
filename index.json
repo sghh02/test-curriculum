@@ -1,0 +1,100 @@
+{
+  "curriculumId": "test-curriculum",
+  "title": "テスト基礎",
+  "description": "品質の見方を学びながら、結合試験と単体試験の入口を体験し、初回のテスト案件に入る前の準備を整えるカリキュラム。",
+  "chapters": [
+    {
+      "id": "unit0",
+      "title": "Unit 0: 学習設計とイントロダクション",
+      "items": [
+        {
+          "id": "test-intro",
+          "title": "テスト基礎と案件導入",
+          "path": "chapters/00-intro.md",
+          "estimatedMinutes": 20,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit1",
+      "title": "Unit 1: 品質の見方",
+      "items": [
+        {
+          "id": "what-is-testing",
+          "title": "テストは何のために行うのか",
+          "path": "chapters/01-what-is-testing.md",
+          "estimatedMinutes": 25,
+          "hasAssignment": false
+        },
+        {
+          "id": "testing-viewpoints",
+          "title": "正常系・異常系・境界値で考える",
+          "path": "chapters/02-testing-viewpoints.md",
+          "estimatedMinutes": 30,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2: テスト実施",
+      "items": [
+        {
+          "id": "test-workflow",
+          "title": "テスト案件の進め方",
+          "path": "chapters/03-test-workflow.md",
+          "estimatedMinutes": 25,
+          "hasAssignment": false
+        },
+        {
+          "id": "bug-report-basics",
+          "title": "再現できるバグ報告の書き方",
+          "path": "chapters/04-bug-report-basics.md",
+          "estimatedMinutes": 30,
+          "hasAssignment": false
+        },
+        {
+          "id": "test-execution",
+          "title": "結合試験をやってみる",
+          "path": "chapters/05-test-execution.md",
+          "estimatedMinutes": 120,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "title": "Unit 3: テスト設計",
+      "items": [
+        {
+          "id": "test-design",
+          "title": "単体試験を設計してみる",
+          "path": "chapters/06-test-design.md",
+          "estimatedMinutes": 150,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "title": "Unit 4: 現場理解とリファレンス",
+      "items": [
+        {
+          "id": "tester-role",
+          "title": "テスターとテストエンジニアの仕事",
+          "path": "chapters/07-tester-role.md",
+          "estimatedMinutes": 30,
+          "hasAssignment": false
+        },
+        {
+          "id": "test-glossary",
+          "title": "用語集＆クイックリファレンス",
+          "path": "chapters/08-glossary.md",
+          "estimatedMinutes": 20,
+          "hasAssignment": false
+        }
+      ]
+    }
+  ]
+}
