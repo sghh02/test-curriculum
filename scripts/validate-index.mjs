@@ -118,7 +118,6 @@ for (const group of groups) {
     }
 
     const forbiddenPatterns = [
-      { pattern: /drive\.google\.com/i, label: "legacy Google Drive link" },
       { pattern: /backlog\.com/i, label: "legacy Backlog link" },
       { pattern: /Wiki\//, label: "legacy Wiki path" },
       { pattern: /結合試験\//, label: "legacy student-specific page path" },

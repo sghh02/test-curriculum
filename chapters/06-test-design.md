@@ -5,24 +5,26 @@
 ## この章のゴール
 
 - 仕様を読んでテスト観点を整理できる
-- 単体試験のテストケースを Markdown で設計できる
+- 単体試験のテストケースをスプレッドシートで設計できる
 - 設計意図を PR で提出し、レビューを受ける流れを体験できる
 
 ## 事前準備
 
-この章では、`samples/test-design/` の共通見本を使います。
+この章では、Drive 上の課題2資材と参考資料を使います。
 着手前に次を確認してください。
 
-- `samples/test-design/dockload-summary.md`
-- `samples/test-design/screen-spec-summary.md`
+- 課題2: 設計書
+  - <https://drive.google.com/drive/folders/1i-1hoYM7VGtccPuDD8cIBPpkkiRe34N2>
+- 参考資料
+  - <https://drive.google.com/drive/folders/1uGcLba_M-u95kuy07DK7QLQLjo4f0A9c>
 - `templates/test-case-template.md`
 - `templates/submission-note-template.md`
 
 ## この章でやること
 
-1. 見本資料を読んで対象機能を理解する
+1. 設計書、フロー図、テーブル定義、テストデータを読んで対象機能を理解する
 2. 正常系・異常系・境界値で観点を分ける
-3. 単体試験のケースを `test-case-template.md` に沿って作る
+3. 参考資料の単体試験紙を自分用にコピーして設計する
 4. 設計の意図を `submission-note` に整理する
 5. PR で提出する
 
@@ -39,7 +41,12 @@
 
 ### 2. テストケースに落とす
 
-自分の学習リポジトリに `unit-test-cases.md` を作成し、テンプレートをコピーして埋めます。
+参考資料の単体試験紙を自分の Google Drive にコピーし、次のような名前で作成します。
+
+- `課題2_単体試験_<氏名>_YYYYMMDD`
+
+必要に応じて `templates/test-case-template.md` を下書きとして使ってから、シートへ転記しても構いません。
+
 最低でも次の3種類を含めてください。
 
 - 正常系のケース
@@ -59,6 +66,7 @@
 - ケースだけ増やして、観点の整理がない
 - 期待結果が「正しく動くこと」になっている
 - 入力条件や前提条件が省略されている
+- 参考資料の試験紙をそのまま残し、自分用コピーを作っていない
 
 ## AIに聞いてみよう
 
@@ -75,6 +83,7 @@
 - [ ] 観点を先に整理してからケースを書けた
 - [ ] 正常系・異常系・境界値を含むケースを作れた
 - [ ] 期待結果を具体的に書けた
+- [ ] 自分用の単体試験シート URL を提出できる状態にした
 - [ ] PR 提出まで完了した
 
 ---

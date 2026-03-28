@@ -18,7 +18,27 @@
     },
     {
       "id": "unit1",
-      "title": "Unit 1: 品質の見方",
+      "title": "Unit 1: 環境準備",
+      "items": [
+        {
+          "id": "test-setup",
+          "title": "実施環境を準備する",
+          "path": "chapters/01-setup.md",
+          "estimatedMinutes": 35,
+          "hasAssignment": false
+        },
+        {
+          "id": "test-assets-tools",
+          "title": "教材・スプレッドシート・提出導線を確認する",
+          "path": "chapters/02-assets-and-tools.md",
+          "estimatedMinutes": 25,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2: 品質の見方",
       "items": [
         {
           "id": "what-is-testing",
@@ -37,8 +57,8 @@
       ]
     },
     {
-      "id": "unit2",
-      "title": "Unit 2: テスト実施",
+      "id": "unit3",
+      "title": "Unit 3: テスト実施",
       "items": [
         {
           "id": "test-workflow",
@@ -64,8 +84,8 @@
       ]
     },
     {
-      "id": "unit3",
-      "title": "Unit 3: テスト設計",
+      "id": "unit4",
+      "title": "Unit 4: テスト設計",
       "items": [
         {
           "id": "test-design",
@@ -77,8 +97,8 @@
       ]
     },
     {
-      "id": "unit4",
-      "title": "Unit 4: 現場理解とリファレンス",
+      "id": "unit5",
+      "title": "Unit 5: 現場理解とリファレンス",
       "items": [
         {
           "id": "tester-role",
