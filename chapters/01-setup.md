@@ -24,7 +24,7 @@
 - Android 実機、または Android Studio のエミュレータ
 - `adb` コマンドが使える環境
 - 課題用 APK
-  - <https://drive.google.com/file/d/1y7CGm1B7Y0dvEPwGUYlQ8hdbqAOMine5/view?usp=drivesdk>
+  - 共有 Drive の `結合テスト > apk > app-debug.apk`
 
 ## 進め方
 
@@ -59,7 +59,7 @@ adb devices
 
 ## 4. APK を端末へ導入する
 
-Drive から `app-debug.apk` をダウンロードし、保存場所を確認してからインストールします。
+共有 Drive の `結合テスト > apk > app-debug.apk` をダウンロードし、保存場所を確認してからインストールします。
 
 ```bash
 adb install /path/to/app-debug.apk

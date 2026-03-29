@@ -25,10 +25,16 @@
 後半の課題では、主に次の2つを使います。
 
 - 下書き用: `templates/bug-report-template.md`
-- 実運用: バグ起票フォーム
-  - <https://docs.google.com/forms/d/1-vPNHLyxtHKpMS88E2QgLLWF19sY3Ex_4CSjlQ0wqnQ/edit?usp=drivesdk>
+- 実運用: Backlog
 
 まずは見出しの意味だけ理解し、実際に起票したらシート側へ起票番号を戻す流れを押さえてください。
+
+Backlog を使う前に、次を確認してください。
+
+- どのプロジェクトに起票するか
+- どの課題種別を使うか
+- 優先度をどう付けるか
+- 自分で担当を付けるか
 
 ```text
 事象:
