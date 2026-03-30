@@ -17,7 +17,7 @@
 実施用の APK、設計書、スプレッドシート、参考資料は次の共有 Drive を基準に運用します。
 root 直下は `単体テスト` と `結合テスト` の 2 フォルダ構成です。
 
-- <https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0>
+- [テストカリキュラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 
 ## 検証
 

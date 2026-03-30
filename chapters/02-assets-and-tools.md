@@ -21,7 +21,7 @@
 ## 使う Drive 一覧
 
 - 共有フォルダ
-  - <https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0>
+  - [テストカリキュラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 - `単体テスト`
   - `課題2：設計書`
   - `テストケース`

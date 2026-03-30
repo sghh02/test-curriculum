@@ -15,7 +15,7 @@
 
 最初に、次の共有フォルダへアクセスできるか確認してください。
 
-- 共有フォルダ: <https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0>
+- 共有フォルダ: [テストカリキュラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 
 アクセスできない場合は、この時点で講師へ確認します。
 
