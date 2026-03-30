@@ -1,10 +1,13 @@
 # 実施環境を準備する
 
+> この章では「APK を入れること」だけでなく、**公式情報をAIに整理させながら、自分の端末で環境構築を進める型** も身につけます。
+
 ## この章のゴール
 
 - 自分の PC で課題に着手するための前提をそろえられる
-- APK を Android 端末またはエミュレータへ導入できる
+- 必要に応じて APK を Android 実機へ導入できる
 - 次章で使う Drive の教材へ迷わず入れる
+- 公式情報と AI を使って、環境構築を自力で進める流れを試せる
 
 ## 最初に確認すること
 
@@ -21,23 +24,90 @@
 
 ## この章で使うもの
 
-- Android 実機、または Android Studio のエミュレータ
+- Android 実機
 - `adb` コマンドが使える環境
 - 課題用 APK
   - 共有 Drive の `結合テスト > apk > app-debug.apk`
+- Android 公式情報
+  - [Run apps on a hardware device](https://developer.android.com/studio/run/device?hl=ja)
+  - [SDK Platform-Tools release notes](https://developer.android.com/tools/releases/platform-tools?hl=ja)
+  - [Android Debug Bridge (adb)](https://developer.android.com/tools/adb?hl=ja)
+
+## AIと公式情報で環境構築する
+
+環境構築は、端末や PC の状態によって見え方が少しずつ変わります。  
+だから大事なのは、**手順を丸暗記すること**ではなく、**公式情報を根拠に AI へ整理させ、自分の画面と照合しながら進めること**です。
+
+この章では、次の Android 公式情報だけを使うのが安全です。
+
+- Android 公式: [Run apps on a hardware device](https://developer.android.com/studio/run/device?hl=ja)
+- Android 公式: [SDK Platform-Tools release notes](https://developer.android.com/tools/releases/platform-tools?hl=ja)
+- Android 公式: [Android Debug Bridge (adb)](https://developer.android.com/tools/adb?hl=ja)
+
+### AIへの頼み方
+
+AI に頼むときは、**参照元を限定する** のが大事です。
+
+コピペ用:
+
+```text
+以下の公式URLだけを参照して、Android実機でAPKを導入する手順を初心者向けに整理してください。
+- 必須手順
+- つまずきやすい点
+- できた状態
+を分けて書いてください。
+公式ページに書いていないことは推測せず、「不明」と書いてください。
+
+- https://developer.android.com/studio/run/device?hl=ja
+- https://developer.android.com/tools/releases/platform-tools?hl=ja
+- https://developer.android.com/tools/adb?hl=ja
+```
+
+ここで身につけたいのは、**分からない → 公式を見る → AI に整理させる → 自分の端末画面で確認する** という流れです。
 
 ## 進め方
 
-### 1. 端末を決める
+### 1. Android 実機があるか確認する
 
-次のどちらかで進めます。
+このカリキュラムは **Android 実機のみ** を前提に進めます。
 
-- Android 実機を使う
-- Android Studio のエミュレータを使う
+- Android 実機がある場合
+  - このまま次へ進みます
+- Android 実機がない場合
+  - この時点で講師へすぐ連絡してください
 
-迷ったら、普段の検証に近いのは実機、準備しやすいのはエミュレータです。
+**できた状態**：課題で使う Android 実機が手元にある。
 
-### 2. `adb` が使えるか確認する
+### 2. すでにアプリが入っているか確認する
+
+Android 実機のホーム画面やアプリ一覧を開き、対象アプリがすでに入っているか確認します。
+
+確認したいのは、**青い背景に白い円があり、その中に時計のような白い針が見えるアイコン**です。
+
+- このアイコンがすでにある場合
+  - APK のインストールは省いて構いません
+  - `adb` の確認と起動確認だけ行って次へ進みます
+- このアイコンがない場合
+  - この章の後半で APK をインストールします
+
+**できた状態**：アプリがすでに入っているか、まだ入っていないかを判断できた。
+
+### 3. USB デバッグと接続準備を確認する
+
+Android 公式の [Run apps on a hardware device](https://developer.android.com/studio/run/device?hl=ja) を参照しながら、実機で USB デバッグが使える状態にします。
+
+最低限確認すること:
+
+- 開発者向けオプションを有効にする
+- USB デバッグを有効にする
+- USB ケーブルで PC と実機を接続する
+- 実機側に確認ダイアログが出たら許可する
+
+ここは端末ごとに表示名が少し違うことがあるので、迷ったら上の公式ページを AI に整理させてから進めてください。
+
+**できた状態**：実機を PC につなぎ、USB デバッグを許可できた。
+
+### 4. `adb` が使えるか確認する
 
 ターミナルまたはコマンドプロンプトで、まず `adb` が呼べるか確認します。
 
@@ -46,18 +116,26 @@ adb version
 ```
 
 コマンドが見つからない場合は、Android SDK Platform Tools の導入や PATH 設定が必要です。
+その場合は、Android 公式の [SDK Platform-Tools release notes](https://developer.android.com/tools/releases/platform-tools?hl=ja) を参照して導入します。
 
-### 3. 端末接続を確認する
+**できた状態**：`adb version` が実行できる。
 
-端末またはエミュレータを起動し、次を実行します。
+### 5. 実機接続を確認する
+
+実機を接続した状態で、次を実行します。
 
 ```bash
 adb devices
 ```
 
 1 台以上表示されれば次へ進めます。
+表示されない場合は、USB ケーブル接続、USB デバッグ許可、実機側の確認ダイアログを見直します。
 
-## 4. APK を端末へ導入する
+**できた状態**：`adb devices` に接続した Android 実機が表示される。
+
+## 6. APK を端末へ導入する
+
+### アイコンがない場合だけ実施する
 
 共有 Drive の `結合テスト > apk > app-debug.apk` をダウンロードし、保存場所を確認してからインストールします。
 
@@ -66,12 +144,16 @@ adb install /path/to/app-debug.apk
 ```
 
 すでに同じパッケージが入っていて失敗した場合は、既存アプリを削除してから再実行してください。
+すでにホーム画面やアプリ一覧に対象アイコンがある場合は、この手順は省いて構いません。
 
-### 5. 起動確認をする
+**できた状態**：インストール後、実機に対象アプリのアイコンが表示される。
+
+### 7. 起動確認をする
 
 インストール後、端末で対象アプリを開きます。
 次が確認できれば、この章は完了です。
 
+- ホーム画面またはアプリ一覧に、青い背景に白い円と時計の針のような白い図形があるアイコンが表示される
 - アプリが起動する
 - 初期画面まで進める
 - 明らかなクラッシュがない
@@ -80,25 +162,28 @@ adb install /path/to/app-debug.apk
 
 - `adb` は入っているが PATH が通っていない
 - 端末の USB デバッグが有効になっていない
-- エミュレータは起動しているが `adb devices` に出ていない
+- Android 実機がないのに、そのまま進めようとしてしまう
+- すでにアプリが入っているのに毎回 APK を入れ直してしまう
 - APK は入ったが、実際に起動確認していない
 
 ## AIに聞いてみよう
 
 ```text
 目的：テスト課題の事前準備を完了したい
-現状：Drive の共有フォルダには入れたが、端末導入が不安
-詰まりポイント：adb の確認と APK インストールで何を見ればよいか曖昧
-自分の仮説：adb devices と adb install が通れば着手できそう
-確認したいこと：この時点で最低限確認すべき項目を整理して
+現状：Drive の共有フォルダには入れたが、Android 実機の準備と APK 導入が不安
+詰まりポイント：USB デバッグ、adb の確認、アプリアイコン確認の順番が曖昧
+自分の仮説：実機接続、adb devices、アイコン確認、必要なら adb install の順で進めればよさそう
+確認したいこと：この公式URLだけを参照して、実機での環境構築手順を初心者向けに整理して
 ```
 
 ## チェックリスト
 
 - [ ] 共有 Drive へアクセスできた
-- [ ] Android 実機またはエミュレータを決めた
+- [ ] Android 実機があることを確認できた
+- [ ] 対象アプリのアイコンがあるか確認できた
 - [ ] `adb version` と `adb devices` を確認できた
-- [ ] `app-debug.apk` を導入して起動確認できた
+- [ ] 必要に応じて `app-debug.apk` を導入し、起動確認できた
+- [ ] 公式情報をAIに整理させて、自分の端末と照合する流れを試せた
 
 ---
 

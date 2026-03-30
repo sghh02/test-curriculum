@@ -14,13 +14,14 @@
 着手前に次をそろえてください。
 
 - APK の導入と起動確認
-- Android 端末、または Android Studio のエミュレータ
+- Android 実機
 - 共有 Drive の `結合テスト > テストケース`
 - 共有 Drive の `結合テスト > 課題1：設計書`
 - 起票先の [TESTCURRICULUM プロジェクト](https://convi0310.backlog.com/projects/TESTCURRICULUM)
 - My Drive 直下に作成した `課題1_エビデンス_<氏名>_YYYYMMDD`
 
 Backlog の URL を開けない場合は、この章を始める前に講師へすぐ連絡してください。
+Android 実機がない場合も、この章を始める前に講師へすぐ連絡してください。
 
 ## この章でやること
 
