@@ -7,8 +7,10 @@ const index = JSON.parse(readFileSync(indexPath, "utf-8"));
 
 const errors = [];
 const warnings = [];
-const allowedBacklogUrl =
-  "https://convi0310.backlog.com/projects/TESTCURRICULUM";
+const allowedBacklogUrls = new Set([
+  "https://convi0310.backlog.com/projects/TESTCURRICULUM",
+  "https://convi0310.backlog.com/wiki/TESTCURRICULUM/%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E8%B5%B7%E7%A5%A8",
+]);
 
 function escapeRegExp(str) {
   return String(str).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -120,7 +122,6 @@ for (const group of groups) {
     }
 
     const forbiddenPatterns = [
-      { pattern: /https?:\/\/[^\s)]+backlog\.com\/wiki\//i, label: "legacy Backlog wiki link" },
       { pattern: /Wiki\//, label: "legacy Wiki path" },
       { pattern: /結合試験\//, label: "legacy student-specific page path" },
     ];
@@ -133,7 +134,7 @@ for (const group of groups) {
 
     const backlogUrls = content.match(/https?:\/\/[^\s)]+backlog\.com\/[^\s)]+/gi) ?? [];
     for (const url of backlogUrls) {
-      if (url !== allowedBacklogUrl) {
+      if (!allowedBacklogUrls.has(url)) {
         errors.push(
           `${item.path}: contains unsupported Backlog URL (${url})`
         );

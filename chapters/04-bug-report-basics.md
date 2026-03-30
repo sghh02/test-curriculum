@@ -30,6 +30,7 @@
 まずは見出しの意味だけ理解し、実際に起票したらシート側へ起票番号を戻す流れを押さえてください。
 このカリキュラムで使う起票先は [TESTCURRICULUM プロジェクト](https://convi0310.backlog.com/projects/TESTCURRICULUM) です。
 この URL を開けない場合は、その時点で講師へすぐ連絡してください。
+起票の仕方は、[Backlog Wiki のチケット起票ページ](https://convi0310.backlog.com/wiki/TESTCURRICULUM/%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E8%B5%B7%E7%A5%A8) を参考にしてください。
 
 Backlog での実際の流れは次の通りです。
 
