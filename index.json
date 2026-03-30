@@ -9,7 +9,7 @@
       "items": [
         {
           "id": "test-intro",
-          "title": "テスト基礎と案件導入",
+          "title": "このカリキュラムで何を学ぶか",
           "path": "chapters/00-intro.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
@@ -29,16 +29,9 @@
         },
         {
           "id": "test-assets-tools",
-          "title": "教材・スプレッドシート・提出導線を確認する",
+          "title": "教材・Drive・Backlogの使い分け",
           "path": "chapters/02-assets-and-tools.md",
           "estimatedMinutes": 25,
-          "hasAssignment": false
-        },
-        {
-          "id": "drive-structure",
-          "title": "Drive の置き方と命名ルール",
-          "path": "chapters/09-drive-structure.md",
-          "estimatedMinutes": 20,
           "hasAssignment": false
         }
       ]
@@ -69,7 +62,7 @@
       "items": [
         {
           "id": "test-workflow",
-          "title": "テスト案件の進め方",
+          "title": "テスト案件の基本フロー",
           "path": "chapters/03-test-workflow.md",
           "estimatedMinutes": 25,
           "hasAssignment": false
