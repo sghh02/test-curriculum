@@ -8,7 +8,6 @@
 
 - `index.json`: viewer 用の目次
 - `chapters/`: viewer に表示する本文
-- `samples/`: viewer 内の補助見本
 - `templates/`: 下書きや補助メモに使うテンプレ
 - `legacy/`: 旧 Notion 書き出しの保管場所
 
