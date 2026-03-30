@@ -18,27 +18,7 @@
     },
     {
       "id": "unit1",
-      "title": "Unit 1: 環境準備",
-      "items": [
-        {
-          "id": "test-setup",
-          "title": "実施環境を準備する",
-          "path": "chapters/01-setup.md",
-          "estimatedMinutes": 35,
-          "hasAssignment": false
-        },
-        {
-          "id": "test-assets-tools",
-          "title": "教材・Drive・Backlogの使い分け",
-          "path": "chapters/02-assets-and-tools.md",
-          "estimatedMinutes": 25,
-          "hasAssignment": false
-        }
-      ]
-    },
-    {
-      "id": "unit2",
-      "title": "Unit 2: 品質の見方",
+      "title": "Unit 1: 品質の見方",
       "items": [
         {
           "id": "what-is-testing",
@@ -52,6 +32,26 @@
           "title": "正常系・異常系・境界値で考える",
           "path": "chapters/02-testing-viewpoints.md",
           "estimatedMinutes": 30,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2: 実践準備",
+      "items": [
+        {
+          "id": "test-setup",
+          "title": "実施環境を準備する",
+          "path": "chapters/01-setup.md",
+          "estimatedMinutes": 35,
+          "hasAssignment": false
+        },
+        {
+          "id": "test-assets-tools",
+          "title": "教材・Drive・Backlogの使い分け",
+          "path": "chapters/02-assets-and-tools.md",
+          "estimatedMinutes": 25,
           "hasAssignment": false
         }
       ]

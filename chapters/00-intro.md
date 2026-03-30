@@ -51,10 +51,10 @@
 
 章ごとの役割は次の通りです。
 
-1. [実施環境を準備する](./01-setup.md)
-2. [教材・Drive・Backlogの使い分け](./02-assets-and-tools.md)
-3. [テストは何のために行うのか](./01-what-is-testing.md)
-4. [正常系・異常系・境界値で考える](./02-testing-viewpoints.md)
+1. [テストは何のために行うのか](./01-what-is-testing.md)
+2. [正常系・異常系・境界値で考える](./02-testing-viewpoints.md)
+3. [実施環境を準備する](./01-setup.md)
+4. [教材・Drive・Backlogの使い分け](./02-assets-and-tools.md)
 5. [テスト案件の基本フロー](./03-test-workflow.md)
 6. [再現できるバグ報告の書き方](./04-bug-report-basics.md)
 7. [結合試験をやってみる](./05-test-execution.md)
