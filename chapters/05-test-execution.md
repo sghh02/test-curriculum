@@ -137,5 +137,5 @@ PR には、少なくとも次をまとめてください。
 
 1. 上記のハンズオン課題を完了する
 2. GitHub で `feature/05-test-execution` ブランチを作成し、`develop` へのPRを作成（base=`develop`）
-3. [AI総合レビューツール](https://ai.studio/apps/drive/1AMqIqU4Bio4te7AWh5dly1Qzp7CesqP9?fullscreenApplet=true) でレビューを実行
+3. [AIプログラムレビュー](https://ai.studio/apps/84d224cb-7de1-44fb-995b-9a5917d25603?fullscreenApplet=true) を実行
 4. 問題がなければ、進捗ダッシュボードで **PR URL** と **完了日** を記録
