@@ -1,6 +1,6 @@
 # test-curriculum
 
-品質の見方を学びながら、結合試験と単体試験の入口を体験し、初回のテスト案件に入る前の準備を整えるカリキュラムです。
+品質の見方を学びながら、結合試験と単体試験の入口を体験し、初回のテスト案件に入る前の準備を整えるプログラムです。
 
 実施媒体はスプレッドシートを前提とし、この教材側では環境準備、教材導線、提出ルールを案内します。
 
@@ -16,7 +16,7 @@
 実施用の APK、設計書、スプレッドシート、参考資料は次の共有 Drive を基準に運用します。
 root 直下は `単体テスト` と `結合テスト` の 2 フォルダ構成です。
 
-- [テストカリキュラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
+- [テストプログラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 
 ## 検証
 

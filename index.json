@@ -1,7 +1,7 @@
 {
   "curriculumId": "test-curriculum",
   "title": "テスト基礎",
-  "description": "品質の見方を学びながら、結合試験と単体試験の入口を体験し、初回のテスト案件に入る前の準備を整えるカリキュラム。",
+  "description": "品質の見方を学びながら、結合試験と単体試験の入口を体験し、初回のテスト案件に入る前の準備を整えるプログラム。",
   "chapters": [
     {
       "id": "unit0",
@@ -9,7 +9,7 @@
       "items": [
         {
           "id": "test-intro",
-          "title": "このカリキュラムで何を学ぶか",
+          "title": "このプログラムで何を学ぶか",
           "path": "chapters/00-intro.md",
           "estimatedMinutes": 20,
           "hasAssignment": false

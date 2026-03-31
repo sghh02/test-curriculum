@@ -15,7 +15,7 @@ Backlog の詳しい起票手順は [再現できるバグ報告の書き方](./
 
 ## 基本方針
 
-このカリキュラムでは、媒体を次のように分けます。
+このプログラムでは、媒体を次のように分けます。
 
 - この教材: 学習の進め方、環境準備、提出ルール
 - Drive: APK、設計書、スプレッドシート、参考資料
@@ -32,7 +32,7 @@ Backlog の詳しい起票手順は [再現できるバグ報告の書き方](./
 ## 使う Drive 一覧
 
 - 共有フォルダ
-  - [テストカリキュラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
+  - [テストプログラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 - `単体テスト`
   - `課題2：設計書`
   - `テストケース`
