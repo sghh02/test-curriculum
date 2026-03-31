@@ -21,6 +21,7 @@
 - 共有フォルダ: [テストプログラム Drive](https://drive.google.com/drive/folders/1ebJdmQzaUxg4FTSC79mCN1kYw_QPtBa0)
 
 アクセスできない場合は、その時点で作業を止めて講師へすぐ連絡してください。
+アクセスできたら、次章でこの Drive を自分の Google Drive の `マイドライブ` にコピーし、以後はその作業用コピーを使います。
 
 ## この章で使うもの
 
