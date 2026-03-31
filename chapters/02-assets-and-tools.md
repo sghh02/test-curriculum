@@ -27,7 +27,7 @@ Backlog の詳しい起票手順は [再現できるバグ報告の書き方](./
 実施の主役はスプレッドシートです。
 現場に近い運用を体験するため、課題1 と課題2 の記録は Google Sheets を中心に行います。
 不具合報告は Drive ではなく、[TESTCURRICULUM プロジェクト](https://convi0310.backlog.com/projects/TESTCURRICULUM) を使います。
-この URL を開けない場合は、その時点で作業を止めて講師へすぐ連絡してください。
+ログインができない場合、ログイン後 TESTCURRICULUM のプロジェクトにたどり着けない場合は、その時点で作業を止めて講師へすぐ連絡してください。
 
 ## 使う Drive 一覧
 
