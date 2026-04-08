@@ -9,7 +9,7 @@
       "items": [
         {
           "id": "test-intro",
-          "title": "このプログラムで何を学ぶか",
+          "title": "第0章: このプログラムで何を学ぶか",
           "path": "chapters/00-intro.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
@@ -22,14 +22,14 @@
       "items": [
         {
           "id": "what-is-testing",
-          "title": "テストは何のために行うのか",
+          "title": "第1章: テストは何のために行うのか",
           "path": "chapters/01-what-is-testing.md",
           "estimatedMinutes": 25,
           "hasAssignment": false
         },
         {
           "id": "testing-viewpoints",
-          "title": "正常系・異常系・境界値で考える",
+          "title": "第2章: 正常系・異常系・境界値で考える",
           "path": "chapters/02-testing-viewpoints.md",
           "estimatedMinutes": 30,
           "hasAssignment": false
@@ -42,14 +42,14 @@
       "items": [
         {
           "id": "test-setup",
-          "title": "実施環境を準備する",
+          "title": "第3章: 実施環境を準備する",
           "path": "chapters/01-setup.md",
           "estimatedMinutes": 35,
           "hasAssignment": false
         },
         {
           "id": "test-assets-tools",
-          "title": "教材・Drive・Backlogの使い分け",
+          "title": "第4章: 教材・Drive・Backlogの使い分け",
           "path": "chapters/02-assets-and-tools.md",
           "estimatedMinutes": 25,
           "hasAssignment": false
@@ -62,21 +62,21 @@
       "items": [
         {
           "id": "test-workflow",
-          "title": "テスト案件の基本フロー",
+          "title": "第5章: テスト案件の基本フロー",
           "path": "chapters/03-test-workflow.md",
           "estimatedMinutes": 25,
           "hasAssignment": false
         },
         {
           "id": "bug-report-basics",
-          "title": "再現できるバグ報告の書き方",
+          "title": "第6章: 再現できるバグ報告の書き方",
           "path": "chapters/04-bug-report-basics.md",
           "estimatedMinutes": 30,
           "hasAssignment": false
         },
         {
           "id": "test-execution",
-          "title": "結合試験をやってみる",
+          "title": "第7章: 結合試験をやってみる",
           "path": "chapters/05-test-execution.md",
           "estimatedMinutes": 120,
           "hasAssignment": true
@@ -89,7 +89,7 @@
       "items": [
         {
           "id": "test-design",
-          "title": "単体試験を設計してみる",
+          "title": "第8章: 単体試験を設計してみる",
           "path": "chapters/06-test-design.md",
           "estimatedMinutes": 150,
           "hasAssignment": true
@@ -102,14 +102,14 @@
       "items": [
         {
           "id": "tester-role",
-          "title": "テスターとテストエンジニアの仕事",
+          "title": "第9章: テスターとテストエンジニアの仕事",
           "path": "chapters/07-tester-role.md",
           "estimatedMinutes": 30,
           "hasAssignment": false
         },
         {
           "id": "test-glossary",
-          "title": "用語集＆クイックリファレンス",
+          "title": "第10章: 用語集＆クイックリファレンス",
           "path": "chapters/08-glossary.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
