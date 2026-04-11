@@ -45,9 +45,6 @@ Backlog の詳しい起票手順は [再現できるバグ報告の書き方](./
   - `apk`
   - `課題1：設計書`
   - `テストケース`
-- Backlog
-  - [TESTCURRICULUM プロジェクト](https://convi0310.backlog.com/projects/TESTCURRICULUM)
-  - 開けない場合は、作業を始めず講師へすぐ連絡する
 
 ## 課題1で開くもの
 
