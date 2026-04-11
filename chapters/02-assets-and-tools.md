@@ -24,7 +24,7 @@ Backlog の詳しい起票手順は [再現できるバグ報告の書き方](./
 ここでいう `この教材` は、今あなたが学習画面で読んでいる章本文のことです。
 学習の順番や手順説明はこの教材で確認し、実際の APK やスプレッドシートは Drive で開きます。
 
-学習開始時に、[テストプログラムのコピーツール](https://script.google.com/macros/s/AKfycbzv3Y3ERvwG2Orw4dNl-EhndWcALLFUWDPhslY9EDMQ-3xt8OmJBCbkgl3mSHjSxElglw/exec) を使って、共有 Drive の `テストプログラム Drive` を自分の Google Drive の `マイドライブ` に 1 回だけコピーします。以後の課題1 と課題2 はそのコピーを使います。
+学習開始時に、[テストプログラムのコピーツール](https://script.google.com/macros/s/AKfycbwzs-L_XKZMLCvhF8_RaY3WYz2mpDHIs56qpg_UiGCMiayScX9f6h2HCE11JvCbTjBjrw/exec) を使って、共有 Drive の `テストプログラム Drive` を自分の Google Drive の `マイドライブ` に 1 回だけコピーします。以後の課題1 と課題2 はそのコピーを使います。
 共有 Drive 側は配布用の正本として扱い、講師から別指示がない限り直接編集しません。
 
 実施の主役はスプレッドシートです。
@@ -94,7 +94,7 @@ Backlog は、課題1 で見つけた不具合を管理する場所です。
 
 ### コピー手順
 
-1. [テストプログラムのコピーツール](https://script.google.com/macros/s/AKfycbzv3Y3ERvwG2Orw4dNl-EhndWcALLFUWDPhslY9EDMQ-3xt8OmJBCbkgl3mSHjSxElglw/exec) を開く
+1. [テストプログラムのコピーツール](https://script.google.com/macros/s/AKfycbwzs-L_XKZMLCvhF8_RaY3WYz2mpDHIs56qpg_UiGCMiayScX9f6h2HCE11JvCbTjBjrw/exec) を開く
 2. 氏名を入力して「コピー開始」を押す
 3. マイドライブに `テストプログラム_<氏名>_YYYYMMDD` が自動作成される
 4. コピーは 1 回だけ実行する（同じ日に 2 回実行するとエラーになります）
