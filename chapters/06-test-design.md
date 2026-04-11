@@ -15,7 +15,6 @@
 
 - 自分の Drive にコピーした `テストプログラム_<氏名>_YYYYMMDD > 単体テスト > 課題2：設計書`
 - 自分の Drive にコピーした `テストプログラム_<氏名>_YYYYMMDD > 単体テスト > テストケース`
-- 自分の Drive にコピーした `テストプログラム_<氏名>_YYYYMMDD > 単体テスト > 参考資料`
 - 自分の Drive にコピーした `テストプログラム_<氏名>_YYYYMMDD > 単体テスト > テスト計画書`
 - `templates/test-case-template.md`
 - `templates/submission-note-template.md`
