@@ -84,6 +84,7 @@ PR はこの時点ではまだ不要です。実施結果、シート URL、必�
 発行された Issue 番号（`#12` のような番号）を、必ず該当する機能別シートの `備考` 列へ戻します。
 起票内容に迷った場合は [再現できるバグ報告の書き方](./04-bug-report-basics.md) を見返してください。
 起票先は [test-qa リポジトリ](https://github.com/sghh02/test-qa/issues) で、`New issue` から `バグ報告` を選ぶと入力フォームが開きます。
+書き方に迷ったら [見本の Issue](https://github.com/sghh02/test-qa/issues/1) を開き、同じように書いてください。
 
 ### 6. 完了条件を確認する
 

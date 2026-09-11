@@ -7,7 +7,10 @@ const index = JSON.parse(readFileSync(indexPath, "utf-8"));
 
 const errors = [];
 const warnings = [];
-const allowedIssueUrls = new Set(["https://github.com/sghh02/test-qa/issues"]);
+const allowedIssueUrls = new Set([
+  "https://github.com/sghh02/test-qa/issues",
+  "https://github.com/sghh02/test-qa/issues/1",
+]);
 
 function escapeRegExp(str) {
   return String(str).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
