@@ -33,8 +33,6 @@
   - Apple 公式: [App Store から App を入手する](https://support.apple.com/ja-jp/HT204266)
   - Google 公式: [Google Play からアプリをダウンロードする](https://support.google.com/googleplay/answer/113409?hl=ja)
 
-> APK を PC から `adb` で入れる方式ではなくなりました。対象アプリは各ストアで公開されているため、**自分のスマホから直接インストール**します。PC・USB ケーブル・開発者向けオプションは不要です。
-
 ## AIと公式情報で環境構築する
 
 環境構築は、端末や OS の状態によって見え方が少しずつ変わります。
