@@ -19,7 +19,7 @@
 - `templates/test-case-template.md`
 - `templates/submission-note-template.md`
 
-まだ自分の Drive に作業用コピーを作っていない場合は、先に [教材・Drive・Backlogの使い分け](./02-assets-and-tools.md) に戻って準備してください。
+まだ自分の Drive に作業用コピーを作っていない場合は、先に [教材・Drive・GitHubの使い分け](./02-assets-and-tools.md) に戻って準備してください。
 
 ## この章でやること
 

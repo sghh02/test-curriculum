@@ -7,10 +7,7 @@ const index = JSON.parse(readFileSync(indexPath, "utf-8"));
 
 const errors = [];
 const warnings = [];
-const allowedBacklogUrls = new Set([
-  "https://convi0310.backlog.com/projects/TESTCURRICULUM",
-  "https://convi0310.backlog.com/wiki/TESTCURRICULUM/%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E8%B5%B7%E7%A5%A8",
-]);
+const allowedIssueUrls = new Set(["https://github.com/sghh02/test-qa/issues"]);
 
 function escapeRegExp(str) {
   return String(str).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -123,6 +120,7 @@ for (const group of groups) {
 
     const forbiddenPatterns = [
       { pattern: /Wiki\//, label: "legacy Wiki path" },
+      { pattern: /backlog\.com/i, label: "legacy Backlog reference" },
       { pattern: /結合試験\//, label: "legacy student-specific page path" },
     ];
 
@@ -132,12 +130,10 @@ for (const group of groups) {
       }
     }
 
-    const backlogUrls = content.match(/https?:\/\/[^\s)]+backlog\.com\/[^\s)]+/gi) ?? [];
-    for (const url of backlogUrls) {
-      if (!allowedBacklogUrls.has(url)) {
-        errors.push(
-          `${item.path}: contains unsupported Backlog URL (${url})`
-        );
+    const issueUrls = content.match(/https?:\/\/github\.com\/sghh02\/test-qa[^\s)]*/gi) ?? [];
+    for (const url of issueUrls) {
+      if (!allowedIssueUrls.has(url)) {
+        errors.push(`${item.path}: contains unsupported issue tracker URL (${url})`);
       }
     }
 
