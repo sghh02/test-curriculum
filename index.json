@@ -49,7 +49,7 @@
         },
         {
           "id": "test-assets-tools",
-          "title": "第4章: 教材・Drive・Backlogの使い分け",
+          "title": "第4章: 教材・Drive・GitHubの使い分け",
           "path": "chapters/02-assets-and-tools.md",
           "estimatedMinutes": 25,
           "hasAssignment": false
